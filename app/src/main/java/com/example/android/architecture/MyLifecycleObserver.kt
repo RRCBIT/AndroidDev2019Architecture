@@ -9,7 +9,7 @@ class MyLifecycleObserver: LifecycleObserver {
 
     @OnLifecycleEvent(Lifecycle.Event.ON_CREATE)
     fun onCreateEvent() {
-        Log.i(LOG_TAG, "onCreate")
+        Log.i(LOG_TAG, "onCreateOB")
 
     }
 
